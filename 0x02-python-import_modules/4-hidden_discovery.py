@@ -1,12 +1,10 @@
-#!/usr/bin/python3.8
-import dis
-import hidden_4
+#!/usr/bin/python3
 
+if __name__ == "__main__":
+    """Print all names defined by hidden_4 module."""
+    import hidden_4
 
-def print_hidden_names(module):
-    for name in dir(module):
-        if not name.startswith('__'):
+    names = dir(hidden_4)
+    for name in names:
+        if name[:2] != "__":
             print(name)
-
-
-print_hidden_names(hidden_4)
