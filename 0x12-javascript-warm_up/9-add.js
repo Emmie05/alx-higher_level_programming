@@ -5,4 +5,3 @@ function add (a, b) {
 }
 
 add(Number(process.argv[2]), Number(process.argv[3]));
-

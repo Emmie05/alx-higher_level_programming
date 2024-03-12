@@ -4,4 +4,3 @@ exports.callMeMoby = function (x, theFunction) {
     theFunction();
   }
 };
-
