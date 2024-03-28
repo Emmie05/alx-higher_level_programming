@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-"""Fetch
-https://intranet.hbtn.io/status
+"""
+Fetch https://intranet.hbtn.io/status
 using urlib package
 """
 
